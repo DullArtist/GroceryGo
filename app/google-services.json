@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025051438117",
+    "project_id": "grocerygo-b14e6",
+    "storage_bucket": "grocerygo-b14e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025051438117:android:a17924abb7d2da200ea3cc",
+        "android_client_info": {
+          "package_name": "com.mart.grocerygo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025051438117-ekq0n0ilm8603jkitdac2nol7fuddq0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8LJ2kGAFovySf6sE_eCil7SvizQ4yOgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025051438117-ekq0n0ilm8603jkitdac2nol7fuddq0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

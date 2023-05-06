@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mart.grocerygo.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_itemFragment"
+            app:destination="@id/itemFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_viewMoreFragment"
+            app:destination="@id/viewMoreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.mart.grocerygo.fragments.UserFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.mart.grocerygo.fragments.CartFragment"
+        android:label="MyCart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.mart.grocerygo.fragments.FavouritesFragment"
+        android:label="Favourites"
+        tools:layout="@layout/fragment_favourites" />
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.mart.grocerygo.fragments.OrdersFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/itemFragment"
+        android:name="com.mart.grocerygo.fragments.ItemFragment"
+        android:label="Grocery"
+        tools:layout="@layout/fragment_item" />
+    <fragment
+        android:id="@+id/viewMoreFragment"
+        android:name="com.mart.grocerygo.fragments.ViewMoreFragment"
+        android:label="All Items"
+        tools:layout="@layout/fragment_view_more" />
+</navigation>
